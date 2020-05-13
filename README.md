@@ -1,3 +1,6 @@
+# links
+https://www.taxexemptworld.com/organization.asp?tn=2371103
+
 # 501(c)(3)
 Information about 501(c)(3) organizations
 
@@ -14,6 +17,7 @@ As with the following query you can check, top three payee are are all 501(c)(3)
 - Barack Obama Foundation
 - WorkingNations - JaneOates
 - WITA ( Washington International Trade Foundation)
+
 
 ```sql
 select cd.ld203_uuid, cd.organization_name, cb.contributor_name, p.pac_name, cb.payee_name, cb.amount, cb.recipient_name, cb.contribution_date, cd.report_year, cd.report_period_code, cd.comments 
